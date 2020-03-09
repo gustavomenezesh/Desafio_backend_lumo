@@ -25,13 +25,13 @@ Para criar uma requisição, basta clicar no simbolo de "+" no canto superior es
 
 Irão aparecer 2 opções, escolha a "New Request". E após isso, Digite o nome da requisição e selecione o tipo (Nesse problema, iremos utilizar só do tipo "get").
 
-###### .Listando todas proposições
+##### .Listando todas proposições
 
 Para listar todas proposições, basta colocar o seguinte endereço na barra de enviar: https://localhost:4444/list, como mostra a figura
 
 ![](https://uploaddeimagens.com.br/images/002/529/748/original/endere%C3%A7o_list.png?1583719840)
 
-###### .Listando proposições por tipo
+##### .Listando proposições por tipo
 
 Para utilizarmos a rota de busca de proposições por tipo, basta criarmos uma nova requisição mudando apenas o nome com relação a outra criada anteriormente, e após isso o endereço que irá ser colocado na barra de enviar será: http://localhost:4444/typelist
 
@@ -43,4 +43,23 @@ Mas neste caso, iremos precisar que o cliente informe o tipo de proposições qu
 
   }
 
-assim será simulado uma requisição de um cliente que deseja receber todas as proposições do tipo projeto de lei
+![](https://uploaddeimagens.com.br/images/002/529/793/original/Anota%C3%A7%C3%A3o_2020-03-09_001732.png?1583723952)
+
+assim será simulado uma requisição de um cliente que deseja receber todas as proposições do tipo projeto de lei.
+
+##### .Listando proposições por autor
+
+Será do mesmo jeito que na requisição anterior, iremos criar uma nova requisição com o endereço de envio: http://localhost:4444/authorlist e iremos criar outro JSON só que com o filtro de autor:
+
+  {
+
+    "autores":"Coronel Tadeu"
+
+  }
+  
+ ![](https://uploaddeimagens.com.br/images/002/529/794/original/authorlist.png?1583724440)
+ 
+ 
+
+
+
