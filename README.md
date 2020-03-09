@@ -59,7 +59,9 @@ Será do mesmo jeito que na requisição anterior, iremos criar uma nova requisi
   
  ![](https://uploaddeimagens.com.br/images/002/529/794/original/authorlist.png?1583724440)
  
- 
+Após a criação das requisições no insomnia é necessário abrir o prompt de comando na pasta "backend" do projeto e rodar o comando "yarn dev" e a API estará rodando, pronto para receber requisições.
 
+Para realizar o teste, basta ir em algumas das requisições criadas no insomnia e clicar no botão "SEND" e irá ser retornado pela API as porposições reuisitadas pelo cliente na parte direita do insomnia, como por exemplo:
 
+![](https://uploaddeimagens.com.br/images/002/529/804/original/exemplo.png?1583725426)
 
