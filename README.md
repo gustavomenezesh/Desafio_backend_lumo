@@ -65,3 +65,4 @@ Para realizar o teste, basta ir em algumas das requisições criadas no insomnia
 
 ![](https://uploaddeimagens.com.br/images/002/529/804/original/exemplo.png?1583725426)
 
+Obs: A lógica utilizada para o desenvolvimento de cada caminho da rota, está explicada nos comentários no código fonte da API.
