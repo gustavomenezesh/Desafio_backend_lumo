@@ -21,3 +21,4 @@ Para realizar os testes das rotas, é necessário,após a instalações necessá
 
 Para criar uma requisição, basta clicar no simbolo de "+" no canto superior esquerdo como mostra a figura:
 
+![](https://uploaddeimagens.com.br/imagens/print_criar-png)
